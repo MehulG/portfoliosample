@@ -1,6 +1,10 @@
 var on_load = function(){
-    console.log('apple');
 
+    
+    if((1.2*window.innerHeight)>=window.innerWidth){
+        alert('Switch to Portrait mode for better viewing.');
+    }
+    
 
 
     var skill_set = [
