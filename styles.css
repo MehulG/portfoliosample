@@ -1,0 +1,279 @@
+@font-face {
+    font-family: BIG_JOHN;
+    src: url('./fonts/BIG_JOHN.otf');
+}
+@font-face {
+    font-family: SLIM_JOE;
+    src: url('./fonts/SLIM_JOE.otf');
+}
+@font-face {
+    font-family: boveno;
+    src: url('./fonts/boveno_cf.otf');
+}
+
+html{
+    position: absolute;
+    margin-bottom: -300px;
+}
+
+body{
+    margin: 0px;
+    background: #fafafa;
+    /* overflow: hidden; */
+    font-family: BIG_JOHN, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0a1340;
+
+}
+a{
+    color: #0a1340;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+p{
+    margin: 0;
+}
+h4{
+    font-size: 3em;
+    font-family: BIG_JOHN
+}
+#wrapper{
+    margin-bottom: -300px;
+}
+
+
+#header{
+    padding-right: 2em;
+    /* padding-top: 0.5em; */
+    margin: 0%
+}
+#header li{
+    list-style: none;
+    padding: 1em;
+    float: right;
+}
+#header li img{
+    max-height: 5vh;
+    padding-top: 4vh;
+}
+#logo{
+    float: left;
+    position: fixed;
+    padding: 1em;
+}
+#logo img{
+    max-width: 6vw;
+}
+
+
+
+#name{
+    padding-top: 25vh;
+    padding-left: 20vw;
+    font-size: 4em;
+    
+}
+#name p{
+    font-size: 0.75em;
+}
+
+
+
+#side_nav{
+    position: fixed;
+    top: 55vh;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+#side_nav ul{
+    padding-left: 1vw + 1em;
+}
+#side_nav ul li{
+    padding-top: 2em;
+}
+
+#web{
+    float: right;
+    /* padding-right: 15vw;
+    padding-top: 3vh; */
+    padding: 3vh 10vw 3vh 3vh;
+    background: #0a1340;
+    font-size: 2.5em;
+    color: white;
+    box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.1),0 6px 20px 0 rgba(0,0,0,0.05);
+    margin-top: 3vh;
+    font-family: SLIM_JOE
+}
+#web p{
+
+    font-family: BIG_JOHN
+}
+
+
+
+#about{
+    margin-top: -60vh;
+    margin-left: 20vw;
+    font-family: boveno;
+    font-size: 1em;
+    margin-right: 25vh;
+}
+#about div{
+    background: white;
+    padding: 3vh;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
+#skills{
+    margin-left: 20vw;
+    margin-top: 50vh;
+}
+#skills_ul{
+    margin: 0;
+    padding: 0;
+}
+.skills_donut{
+    float: left;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    background: white;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 50%;
+
+}
+
+
+#works{
+    margin-top: -200vh;
+    margin-left: 20vw;
+}
+#works div {
+    display: flex;
+    justify-content: center;
+    margin-left: -20vw;
+}
+
+#works img{
+    max-height: 15vh;
+    margin-top: 5vh;
+
+    background: white;
+    padding: 3vh;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 10vw;
+}
+
+
+
+#find{
+    margin-top: 60vh;
+    margin-left: 20vw;
+}
+#find div{
+    display: flex;
+    justify-content: center;
+    margin-left: -10vw;
+}
+#find img{
+    margin-right: 15vh;
+    padding: 2vh;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    background: white;
+    max-height: 12vh;
+}
+
+
+
+#end{
+    padding: 1em;
+    font-family: boveno;
+    float: right;
+    margin-top: 45vh;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    background: white;
+
+}
+
+
+
+
+
+
+
+#back_white{
+    z-index: -9999!important;
+}
+.white{
+    background: white;
+    margin: 0;
+    padding: 0;
+    width: 12vw;
+    z-index: -99;
+    box-shadow: 4px 4px 4px 4px rgba(117, 117, 117, 0.2),0 6px 20px 0 rgba(117, 117, 117, 0.19);
+}
+
+#white1{
+    height: 70vh;
+    margin-top: -20vh;
+    margin-left: 36.6vw;
+}
+#white2{
+    height: 50vh;
+    margin-top: -97vh;
+    margin-left: 17vw;
+    z-index: -5;
+}
+#white3{
+    height: 80vh;
+    margin-top: -30vh;
+    margin-left: 80vw;
+}
+
+#white4{
+    height: 80vh;
+    margin-top: -10vh;
+    margin-left: 60vw;
+}
+#white5{
+    height: 70vh;
+    margin-top: -50vh;
+    margin-left: 25vw;
+}
+#white6{
+    height: 110vh;
+    margin-top: -85vh;
+    margin-left: 80vw;
+}
+#white7{
+    height: 80vh;
+    margin-top: -5vh;
+    margin-left: 45vw;
+}
+#white8{
+    height: 90vh;
+    margin-top: -25vh;
+    margin-left: 15vw;
+}
+#white9{
+    height: 110vh;
+    margin-top: -85vh;
+    margin-left: 80vw;
+}
+#white10{
+    height: 80vh;
+    margin-top: -40vh;
+    margin-left: 40vw;
+}
+#white11{
+    height: 80vh;
+    margin-top: -40vh;
+    margin-left: 20vw;
+}
+#white12{
+    height: 70vh;
+    margin-top: -60vh;
+    margin-left: 70vw;
+}
