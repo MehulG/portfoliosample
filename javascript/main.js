@@ -1,8 +1,11 @@
 var on_load = function(){
 
-    
-    if((1.2*window.innerHeight)>=window.innerWidth){
-        alert('Switch to Landscape mode for better viewing.');
+    document.getElementById("loader").style.display = 'none';
+    document.getElementsByTagName("body")[0].style.overflow = 'visible';
+
+
+    if((1.2*window.innerHeight)>=(window.innerWidth)){
+        alert('Switch to Portrait mode for better viewing :)');
     }
     
 
