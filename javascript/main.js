@@ -4,8 +4,12 @@ var on_load = function(){
     document.getElementsByTagName("body")[0].style.overflow = 'visible';
 
 
+    AOS.init({
+        disable:'mobile'
+    });
+
     if((1.2*window.innerHeight)>=(window.innerWidth)){
-        alert('Switch to Landscape mode for better viewing :)');
+        alert('Switch to Portrait mode for better viewing :)');
     }
     
 
@@ -53,7 +57,7 @@ var on_load = function(){
     skill_set.forEach(element => {
         $('#skills_ul').append(`              
         <!-- 90% -->
-        <div style="height:25vh; width:25vh;" class='skills_donut'>
+        <div style="height:25vh; width:25vh;" class='skills_donut' data-aos="flip-left" data-aos-delay="200">
                 <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
                     <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill-opacity="0"></circle>
                     <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="" stroke-width="3"></circle> 

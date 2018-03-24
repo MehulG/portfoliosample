@@ -101,7 +101,7 @@ h4{
     background: #0a1340;
     font-size: 2.5em;
     color: white;
-    box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.1),0 6px 20px 0 rgba(0,0,0,0.05);
+    box-shadow: 4px 4px 4px 4px rgba(117, 117, 117, 0.1),0 6px 20px 0 rgba(117,117,117,0.05);
     margin-top: 3vh;
     font-family: SLIM_JOE
 }
@@ -122,7 +122,7 @@ h4{
 #about div{
     background: white;
     padding: 3vh;
-    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 4px 4px 4px 4px rgba(117,117,117,0.2),0 6px 20px 0 rgba(117,117,117,0.19);
 
 }
 
@@ -223,7 +223,7 @@ h4{
 #white2{
     height: 50vh;
     margin-top: -97vh;
-    margin-left: 17vw;
+    margin-left: 17.4vw;
     z-index: -5;
 }
 #white3{
@@ -291,7 +291,6 @@ h4{
    left: 0;
    position: fixed;
    display: block;
-   opacity: 0.7;
 }
 #loader div{
     position: absolute;
@@ -331,4 +330,9 @@ to {
         width: 20vw;
         left: 20vw;
 }
+}
+
+.padd_top{
+    padding-top: 3em;
+
 }
