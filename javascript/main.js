@@ -5,7 +5,7 @@ var on_load = function(){
 
 
     if((1.2*window.innerHeight)>=(window.innerWidth)){
-        alert('Switch to Portrait mode for better viewing :)');
+        alert('Switch to Landscape mode for better viewing :)');
     }
     
 
